@@ -5,8 +5,15 @@ plugins = [
   "magnify",
 ]
 
+#[scratchpads.term]
+#animation = "fromTop"
+#command = "xfce4-terminal --class xfce4-terminal-dropterm"
+#class = "xfce4-terminal-dropterm"
+#size = "75% 60%"
+
 [scratchpads.term]
 animation = "fromTop"
-command = "kitty --class kitty-dropterm"
-class = "kitty-dropterm"
+command = "xfce4-terminal --class xfce4-terminal-dropterm"
+class = "xfce4-terminal-dropterm"
 size = "75% 60%"
+

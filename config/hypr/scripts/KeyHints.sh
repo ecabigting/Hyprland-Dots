@@ -38,12 +38,12 @@ yad --width=$dynamic_width --height=$dynamic_height \
     --column=Command: \
     --timeout-indicator=bottom \
 "ESC" "close this app" "" "=" "SUPER KEY (Windows Key)" "(SUPER KEY)" \
-" enter" "Terminal" "(kitty)" \
-" SHIFT enter" "DropDown Terminal" "(kitty-pyprland)" \
+" enter" "Terminal" "(xfce4-terminal)" \
+" SHIFT enter" "DropDown Terminal" "(xfce4-terminal-pyprland)" \
 " A" "Desktop Overview" "(AGS Overview)" \
 " D" "App Launcher" "(rofi-wayland)" \
 " T" "Open File Manager" "(Thunar)" \
-" S" "Google Search" "(rofi)" \
+" S" "DuckDuckGo Search" "(rofi)" \
 " Q" "close active window" "(not kill)" \
 " Shift Q " "closes a specified window" "(window)" \
 " Z" "Desktop Zoom" "(pyprland)" \

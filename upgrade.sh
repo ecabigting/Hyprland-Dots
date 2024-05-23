@@ -26,7 +26,7 @@ target_dir="$HOME/.config"
 # Specify the update source directories, their corresponding target directories, and their exclusions
 declare -A directories=(
     ["config/hypr/"]="$HOME/.config/hypr/"
-    ["config/kitty/"]="$HOME/.config/kitty/"
+    #["config/kitty/"]="$HOME/.config/kitty/"
     ["config/Kvantum/"]="$HOME/.config/Kvantum/"
     ["config/qt5ct/"]="$HOME/.config/qt5ct"
     ["config/qt6ct/"]="$HOME/.config/qt6ct/"
